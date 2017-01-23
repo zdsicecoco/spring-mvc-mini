@@ -207,6 +207,17 @@
 			<artifactId>org.eclipse.jgit.archive</artifactId>
 			<version>4.0.1.201506240215-r</version>
 		</dependency>
+		<!-- Spring JDBC and MySQL Driver -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${org.springframework-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>5.0.5</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<!-- For testing against latest Spring snapshots -->
